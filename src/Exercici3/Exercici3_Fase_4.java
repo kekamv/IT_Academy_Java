@@ -2,7 +2,7 @@ package Exercici3;
 
 import java.util.*;
 
-public class Exerci3_Fase_4 {
+public class Exercici3_Fase_4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -34,40 +34,43 @@ La mida dels nous arrays sera la llargada de cada string ( string nomCiutat.Leng
 		
 //Mostreu per consola els nous arrays amb els noms invertits (Ex: Barcelona - anolecraB). (0,5 punts)
 	
-	//si esto funciona
-	int j=Barcelona.length-1;
-	System.out.print(j);
-			
-	//no veo por qué esto no, parece que reconoce i=0 como boolean
-	for (int i=Barcelona.length-1; i==0; i--) {
+	for (int i=Barcelona.length-1;i>=0;i--) {
 	
 		System.out.print(Barcelona[i]);
 	}
+	System.out.println();
 
-	for (int i=Madrid.length-1; i<=0; i--) {
+
+	for (int i=Madrid.length-1; i>=0; i--) {
 	
 		System.out.print(Madrid[i]);
-	}
 	
-	for (int i=Valencia.length-1; i<=0; i--) {
+	}
+	System.out.println();
+	
+	for (int i=Valencia.length-1; i>=0; i--) {
 		
 		System.out.print(Valencia[i]);
 	}
+	System.out.println();
 	
-	for (int i=Malaga.length-1; i<=0; i--) {
+	for (int i=Malaga.length-1; i>=0; i--) {
 		
 		System.out.print(Malaga[i]);
 	}
+	System.out.println();
 	
-	for (int i=Cadis.length-1; i<=0; i--) {
+	for (int i=Cadis.length-1; i>=0; i--) {
 		
 		System.out.print(Cadis[i]);
 	}
+	System.out.println();
 	
-	for (int i=Santander.length-1; i<=0; i--) {
+	for (int i=Santander.length-1; i>=0; i--) {
 		
 		System.out.print(Santander[i]);
 	}
+	System.out.println();
 	
 	}
 
